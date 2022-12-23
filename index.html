@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Gerar QRCode</title>
+</head>
+<body>
+    <div id="Image">
+        <img src="./img.png" alt="Qrcode"  width="150" height="150">
+    </div>
+    <br>
+    
+    <h1>Crie seu QRcode!</h1>
+    <textarea maxlength="600" rows="2" cols="100" ></textarea>
+    <br>
+    <div class="container">
+        <button id="botao" onclick="GerarQRcode()">Gerar QRcode</button>
+    </div>
+    <br>
+    <hr>
+    <br>
+    
+    <img id="QRcodeImage">
+    <script src="./script.js"></script>
+</body>
+</html>
